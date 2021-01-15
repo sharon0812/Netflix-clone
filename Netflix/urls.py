@@ -18,6 +18,6 @@ from django.contrib import admin
 from django.conf.urls import include
 
 urlpatterns = [
-    path(r'^admin/', admin.site.urls),
+    url(r'^admin/', admin.site.urls),
     path('',include('netflixApi.urls'))
 ]
